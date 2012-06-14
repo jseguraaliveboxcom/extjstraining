@@ -98,7 +98,7 @@ Ext.define('App.controller.ModuleItemsController', {
     /**
      * Called when a new moduleItem is selected,
      * updates the seletecModuleItem and displays the corresponding site view items 
-     * for the selected moduleItem
+     * for the selected moduleItem x
      */
     onModuleItemSelected: function(argButton,argPressed){
     	if(!argPressed){
