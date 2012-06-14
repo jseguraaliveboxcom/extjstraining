@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ExtjsSamples" default="runSite" basedir=".">
+	
+    <description>
+        Runs the site in specified browser
+    </description>
+	
+	<!-- RUN SITE - START -->
+	
+	<property name="browser" location="C:/Program Files (x86)/Mozilla Firefox/firefox.exe" />
+	
+	<target name="runSite" description="Run the site in the browser" >
+		<exec executable="${browser}" >
+			<arg value='http://www.framework.training.com' />
+		</exec>
+	</target>
+	
+	<!-- RUN SITE - END -->
+
+</project>

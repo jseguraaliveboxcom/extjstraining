@@ -1,0 +1,31 @@
+{
+    "result": [
+    
+        {
+            "name": "FirstModule",
+            "views": [
+                {
+                    "name": "FirstModuleFirstView"
+                },
+                {
+                    "name": "FirstModuleSecondView"
+                }
+            ]
+        },
+        
+        {
+            "name": "SecondModule",
+            "views": [
+                {
+                    "name": "SecondModuleFirstView"
+                },
+                {
+                    "name": "SecondModuleSecondView"
+                }
+            ]
+        }
+        
+	],
+	"errors": [],
+	"success": true
+}
